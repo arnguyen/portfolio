@@ -1,4 +1,6 @@
 import React from 'react';
+import classNames from 'classnames';
+import './portfolio.css';
 
 class Portfolio extends React.Component {
     constructor(props) {
@@ -9,12 +11,17 @@ class Portfolio extends React.Component {
         };
     }
 
+    changeTheme = () => {
+        this.setState({ theme: 'dark' });
+    };
+
     render() {
         const { theme } = this.state;
 
         return (
-          <div className={theme}>
+          <div className={classNames('portfolio', { theme })}>
             <h1>Hello World!</h1>
+            <button type="button" onClick={this.changeTheme}>Change theme</button>
           </div>
         );
     }

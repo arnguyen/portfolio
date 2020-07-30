@@ -1,0 +1,15 @@
+.light {
+    background-color: white;
+}
+
+.light > h1 {
+    color: black;
+}
+
+.dark {
+    background-color: black;
+}
+
+.dark > h1 {
+    color: white;
+}
