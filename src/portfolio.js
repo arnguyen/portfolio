@@ -12,14 +12,20 @@ class Portfolio extends React.Component {
     }
 
     changeTheme = () => {
-        this.setState({ theme: 'dark' });
+        const { theme } = this.state;
+
+        if (theme === 'light') {
+            this.setState({ theme: 'dark' });
+        } else {
+            this.setState({ theme: 'light' });
+        }
     };
 
     render() {
         const { theme } = this.state;
 
         return (
-          <div className={classNames('portfolio', { theme })}>
+          <div className={classNames('portfolio', theme)}>
             <h1>Hello World!</h1>
             <button type="button" onClick={this.changeTheme}>Change theme</button>
           </div>
