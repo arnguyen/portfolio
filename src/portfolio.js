@@ -27,7 +27,7 @@ class Portfolio extends React.Component {
 
         return (
           <div className={classNames('portfolio', theme)}>
-            <Intro />
+            <Intro className="intro" />
             <button type="button" onClick={this.changeTheme}>Change theme</button>
           </div>
         );

@@ -9,7 +9,7 @@
     background-color: white;
 }
 
-.light > h1 {
+.light > .intro {
     color: black;
 }
 
@@ -17,6 +17,6 @@
     background-color: black;
 }
 
-.dark > h1 {
+.dark > .intro {
     color: white;
 }
