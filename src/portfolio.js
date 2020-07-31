@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import './portfolio.css';
+import Intro from './intro';
 
 class Portfolio extends React.Component {
     constructor(props) {
@@ -26,7 +27,7 @@ class Portfolio extends React.Component {
 
         return (
           <div className={classNames('portfolio', theme)}>
-            <h1>Hello World!</h1>
+            <Intro />
             <button type="button" onClick={this.changeTheme}>Change theme</button>
           </div>
         );
