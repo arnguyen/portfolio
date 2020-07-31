@@ -25,10 +25,14 @@ class Portfolio extends React.Component {
     render() {
         const { theme } = this.state;
 
+        const changeThemeTo = theme === 'light' ? 'Dark Mode' : 'Light Mode';
+
         return (
           <div className={classNames('portfolio', theme)}>
             <Intro className="intro" />
-            <button type="button" onClick={this.changeTheme}>Change theme</button>
+            <button id="theme-button" type="button" onClick={this.changeTheme}>
+              { changeThemeTo }
+            </button>
           </div>
         );
     }

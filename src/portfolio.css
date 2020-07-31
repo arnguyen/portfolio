@@ -20,3 +20,13 @@
 .dark > .intro {
     color: white;
 }
+
+.light > #theme-button {
+    background-color: white;
+    color: black;
+}
+
+.dark > #theme-button {
+    background-color: grey;
+    color: white;
+}
