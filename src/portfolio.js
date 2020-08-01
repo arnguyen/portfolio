@@ -2,6 +2,9 @@ import React from 'react';
 import classNames from 'classnames';
 import './portfolio.css';
 import Intro from './intro';
+import Header from './header';
+
+const HEADER_OPTIONS = ['Welcome', 'About', 'Experience', 'Resume', 'Contact']
 
 class Portfolio extends React.Component {
     constructor(props) {
@@ -29,6 +32,7 @@ class Portfolio extends React.Component {
 
         return (
           <div className={classNames('portfolio', theme)}>
+            <Header options={HEADER_OPTIONS} />
             <Intro className="intro" />
             <button id="theme-button" type="button" onClick={this.changeTheme}>
               { changeThemeTo }
