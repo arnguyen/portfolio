@@ -6,6 +6,16 @@ class Experience extends React.Component {
 
         this.state = {}
     }
+
+    render() {
+        return (
+          <div>
+            <p>
+              I have worked at Amazon.
+            </p>
+          </div> 
+        )
+    }
 }
 
 export default Experience;

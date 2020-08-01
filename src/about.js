@@ -6,6 +6,16 @@ class About extends React.Component {
 
         this.state = {}
     }
+
+    render() {
+        return (
+          <div>
+            <p>
+              I go to school at U of Michigan.
+            </p>
+          </div> 
+        )
+    }
 }
 
 export default About;

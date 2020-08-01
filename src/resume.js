@@ -6,6 +6,16 @@ class Resume extends React.Component {
 
         this.state = {}
     }
+
+    render() {
+        return (
+          <div>
+            <p>
+              Feel free to download my resume here.    
+            </p>
+          </div> 
+        )
+    }
 }
 
 export default Resume;
