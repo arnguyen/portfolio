@@ -3,7 +3,6 @@
     width: 100vw;
     overflow-y: scroll;
     overflow-x: hidden;
-    background-color: wheat;
 }
 
 .light {
@@ -30,4 +29,22 @@
 .dark > #theme-button {
     background-color: grey;
     color: white;
+}
+
+.li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-option {
+    background: none;
+    border: none;
+    padding: 0;
+    color: teal;
+    cursor: pointer;
+}
+
+#active-view {
+    text-decoration: underline;
 }
