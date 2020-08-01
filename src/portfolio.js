@@ -27,11 +27,10 @@ class Portfolio extends React.Component {
 
     changeView = (e) => {
       this.setState({ activeView: e.target.value });
-      e.target.style.id = 'active-view';
     }
 
     renderHeader() {
-      const { theme } = this.state;
+      const { theme, activeView } = this.state;
 
       const changeThemeTo = theme === 'light' ? 'Dark Mode' : 'Light Mode';
 
@@ -42,7 +41,7 @@ class Portfolio extends React.Component {
               // eslint-disable-next-line react/no-array-index-key
               <li key={i}>
                 <button
-                  className={classNames('header-option',)}
+                  className={classNames('header-option', activeView === item ? 'active-view': 'hidden')}
                   type="button"
                   value={item}
                   onClick={this.changeView}

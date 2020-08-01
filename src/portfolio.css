@@ -31,7 +31,7 @@
     color: white;
 }
 
-.li {
+.portfolio .li {
     list-style-type: none;
     display: inline-block;
     margin-right: 20px;
@@ -40,11 +40,13 @@
 .header-option {
     background: none;
     border: none;
+    outline: none;
     padding: 0;
     color: teal;
     cursor: pointer;
+    font-size: 20px;
 }
 
-#active-view {
+.active-view {
     text-decoration: underline;
 }
