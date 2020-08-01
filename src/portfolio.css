@@ -16,7 +16,7 @@
 }
 
 .dark {
-    background: linear-gradient(-45deg, purple, rgba(63, 5, 102, 0), navy, blue);
+    background: linear-gradient(-45deg, purple, #400d0d, #0c0535, #4b7994);
 	background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
@@ -48,6 +48,14 @@
     outline: none;
     cursor: pointer;
     font-size: 18px;
+}
+
+.light .header-option {
+    color: black;
+}
+
+.dark .header-option {
+    color: white;
 }
 
 .active-view {

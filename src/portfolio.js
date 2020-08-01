@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import './portfolio.css';
 import Welcome from './welcome';
+import Contact from './contact';
 
 const HEADER_OPTIONS = ['Welcome', 'About', 'Experience', 'Resume', 'Contact']
 
@@ -77,6 +78,7 @@ class Portfolio extends React.Component {
         case 'Resume':
           break;
         case 'Contact':
+          view = <Contact />
           break;
         default:
           view = <Welcome className="intro" />;
