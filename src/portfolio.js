@@ -2,6 +2,9 @@ import React from 'react';
 import classNames from 'classnames';
 import './portfolio.css';
 import Welcome from './welcome';
+import About from './about';
+import Experience from './experience';
+import Resume from './resume';
 import Contact from './contact';
 
 const HEADER_OPTIONS = ['Welcome', 'About', 'Experience', 'Resume', 'Contact']
@@ -72,13 +75,16 @@ class Portfolio extends React.Component {
 
       switch(activeView) {
         case 'About':
+          view = <About />;
           break;
         case 'Experience':
+          view = <Experience />;
           break;
         case 'Resume':
+          view = <Resume />;
           break;
         case 'Contact':
-          view = <Contact />
+          view = <Contact />;
           break;
         default:
           view = <Welcome className="intro" />;
