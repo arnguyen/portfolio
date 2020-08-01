@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
       const changeThemeTo = theme === 'light' ? 'Dark Mode' : 'Light Mode';
 
       return (
-        <div>
+        <div className="header">
           {
             HEADER_OPTIONS.map((item, i) => (
               // eslint-disable-next-line react/no-array-index-key

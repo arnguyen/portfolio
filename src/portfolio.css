@@ -31,7 +31,7 @@
     color: white;
 }
 
-.portfolio .li {
+.portfolio li {
     list-style-type: none;
     display: inline-block;
     margin-right: 20px;
