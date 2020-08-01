@@ -34,7 +34,7 @@
 .portfolio li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 20px;
+    margin: 30px;
 }
 
 .header-option {
@@ -44,9 +44,14 @@
     padding: 0;
     color: teal;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .active-view {
     text-decoration: underline;
+}
+
+.header {
+    height: 100px;
+    background-color: orchid;
 }

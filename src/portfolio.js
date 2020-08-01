@@ -36,21 +36,23 @@ class Portfolio extends React.Component {
 
       return (
         <div className="header">
-          {
-            HEADER_OPTIONS.map((item, i) => (
-              // eslint-disable-next-line react/no-array-index-key
-              <li key={i}>
-                <button
-                  className={classNames('header-option', activeView === item ? 'active-view': 'hidden')}
-                  type="button"
-                  value={item}
-                  onClick={this.changeView}
-                >
-                  {item}
-                </button>
-              </li>
-            ))
-          }
+          <ul>
+            {
+              HEADER_OPTIONS.map((item, i) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <li key={i}>
+                  <button
+                    className={classNames('header-option', activeView === item ? 'active-view': 'hidden')}
+                    type="button"
+                    value={item}
+                    onClick={this.changeView}
+                  >
+                    {item}
+                  </button>
+                </li>
+              ))
+            }
+          </ul>
           <button
             id="theme-button"
             type="button"
