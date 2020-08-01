@@ -34,17 +34,16 @@
 .portfolio li {
     list-style-type: none;
     display: inline-block;
-    margin: 30px;
+    margin-top: 15px;
+    margin-right: 2%;
 }
 
 .header-option {
     background: none;
     border: none;
     outline: none;
-    padding: 0;
-    color: teal;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 18px;
 }
 
 .active-view {
@@ -52,6 +51,5 @@
 }
 
 .header {
-    height: 100px;
-    background-color: orchid;
+    height: 90px;
 }
