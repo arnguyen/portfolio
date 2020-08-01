@@ -3,6 +3,7 @@
     width: 100vw;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-color: wheat;
 }
 
 .light {

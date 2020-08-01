@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import './portfolio.css';
-import Intro from './intro';
+import Welcome from './welcome';
 
 const HEADER_OPTIONS = ['Welcome', 'About', 'Experience', 'Resume', 'Contact']
 
@@ -29,7 +29,7 @@ class Portfolio extends React.Component {
       this.setState({ activeView: e.target.value });
     }
 
-    renderHeader() {
+    renderHeader = () => {
       const { theme } = this.state;
 
       const changeThemeTo = theme === 'light' ? 'Dark Mode' : 'Light Mode';
@@ -61,7 +61,7 @@ class Portfolio extends React.Component {
       );
     }
 
-    renderView() {
+    renderView = () => {
       const { activeView } = this.state;
 
       let view;
@@ -76,7 +76,7 @@ class Portfolio extends React.Component {
         case 'Contact':
           break;
         default:
-          view = <Intro className="intro" />;
+          view = <Welcome className="intro" />;
           break;
       }
 
@@ -88,8 +88,8 @@ class Portfolio extends React.Component {
 
       return (
         <div className={classNames('portfolio', theme)}>
-          {this.renderHeader}
-          {this.renderView}
+          {this.renderHeader()}
+          {this.renderView()}
         </div>
       );
     }
