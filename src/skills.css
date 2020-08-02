@@ -1,13 +1,11 @@
 .col-1 {
-    display: flex;
     float: left;
-    width: 50%;
+    width: 30%;
 }
 
 .col-2 {
-    display: flex;
     float: right;
-    width: 50%;
+    width: 35%;
 }
 
 #skills h2 {
