@@ -1,12 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Typist from 'react-typist';
 import Typewriter from 'typewriter-effect';
 import './welcome.css';
 
-function Intro(props) {
-    const { className } = props;
-
+function Intro() {
     return (
       <div id="welcome">
         <Typewriter
@@ -17,24 +13,13 @@ function Intro(props) {
             typewriter.typeString("I'm Andrew. ")
               .pauseFor(1000)
               .start()
-            typewriter.typeString("What's your name?")
+            typewriter.typeString("Feel free to explore my site.")
               .pauseFor(1000)
               .start()
           }}
         />
-        <form>
-          <input type="text" />
-        </form>
       </div>
     )
-}
-
-Intro.propTypes = {
-    className: PropTypes.string
-}
-
-Intro.defaultProps = {
-    className: ''
 }
 
 export default Intro;
