@@ -13,7 +13,7 @@ class Contact extends React.Component {
           <div id="contact">
             <p>ngandrew@umich.edu</p>
             <p>(248) 904-3173</p>
-            <FontAwesomeIcon icon={["fab", "github"]} />
+            <FontAwesomeIcon icon="coffee" />
 
           </div>
         )
