@@ -62,22 +62,10 @@
     height: 90px;
 }
 
-#theme-button {
+.header > div {
     position: absolute;
-    outline: none;
-    right: 30px;
     top: 30px;
-    font-size: 18px;
-}
-
-.light #theme-button {
-    background-color: white;
-    color: black;
-}
-
-.dark #theme-button {
-    background-color: grey;
-    color: white;
+    right: 50px;
 }
 
 @keyframes gradient {
