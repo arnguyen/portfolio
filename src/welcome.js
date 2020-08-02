@@ -22,6 +22,9 @@ function Intro(props) {
               .start()
           }}
         />
+        <form>
+          <input type="text" />
+        </form>
       </div>
     )
 }
