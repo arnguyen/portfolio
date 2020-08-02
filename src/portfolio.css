@@ -27,6 +27,10 @@
     color: white;
 }
 
+.dark input {
+    color: white;
+}
+
 .portfolio li {
     list-style-type: none;
     display: inline-block;
