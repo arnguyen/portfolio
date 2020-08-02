@@ -9,9 +9,11 @@ function Intro(props) {
     return (
       <div id="welcome">
         <Typist>
-          <p>Hello.</p>
-          <Typist.Delay ms={500} />
-          <p>I&apos;m Andrew.</p>
+          <p>
+            Hello.
+            <Typist.Delay ms={500} />
+            I&apos;m Andrew.
+          </p>
         </Typist>
       </div>
     )
