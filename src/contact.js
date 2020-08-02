@@ -10,10 +10,12 @@ class Contact extends React.Component {
     render() {
         return (
           <div id="contact">
-            <a href="mailto:ngandrew@umich.edu">ngandrew@umich.edu</a>
-            <a href="tel:248-904-3173">248-904-3173</a>
-            <a href="https://www.linkedin.com/in/andrew-nguyen-084279179/">Linkedin</a>
-            <a href="https://github.com/arnguyen">Github</a>
+            <li>
+              <a href="mailto:ngandrew@umich.edu">ngandrew@umich.edu</a>
+              <a href="tel:248-904-3173">248-904-3173</a>
+              <a href="https://www.linkedin.com/in/andrew-nguyen-084279179/">Linkedin</a>
+              <a href="https://github.com/arnguyen">Github</a>
+            </li>
           </div>
         )
     }

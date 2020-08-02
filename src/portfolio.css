@@ -54,6 +54,14 @@
     color: white;
 }
 
+.light a {
+    color: black;
+}
+
+.dark a {
+    color: white;
+}
+
 .active-view {
     text-decoration: underline;
 }
@@ -64,8 +72,14 @@
 
 .header > div {
     position: absolute !important;
-    top: 30px;
+    top: 45px;
     right: 50px;
+}
+
+.header > p {
+    position: absolute;
+    right: 30px;
+    top: 0px;
 }
 
 @keyframes gradient {
