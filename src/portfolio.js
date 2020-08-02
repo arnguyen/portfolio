@@ -36,10 +36,13 @@ class Portfolio extends React.Component {
     }
 
     onSubmit = (e) => {
+      e.preventDefault();
       this.setState({ visitorName: e.target.value });
     }
 
     welcome = () => {
+      const { visitorName } = this.state;
+
       return (
         <div id="welcome">
           <Typewriter
@@ -59,6 +62,18 @@ class Portfolio extends React.Component {
             <input type="text" />
             <input type="submit" value="Introduce yourself" />
           </form>
+          {
+            visitorName
+            && (
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString(`Hello, ${visitorName}!`)
+                  .pauseFor(1000)
+                  .start();
+              }}
+            />
+            )
+          }
         </div>
       );
     }
