@@ -1,0 +1,10 @@
+p {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    height: 80vh;
+}
