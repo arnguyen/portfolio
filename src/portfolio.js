@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import Typewriter from 'typewriter-effect';
 import './portfolio.css';
 import Welcome from './welcome';
 import About from './about';
@@ -15,7 +16,8 @@ class Portfolio extends React.Component {
 
       this.state = {
           theme: 'light',
-          activeView: 'Welcome'
+          activeView: 'Welcome',
+          visitorName: ''
       };
   }
 
@@ -31,6 +33,34 @@ class Portfolio extends React.Component {
 
     changeView = (e) => {
       this.setState({ activeView: e.target.value });
+    }
+
+    onSubmit = (e) => {
+      this.setState({ visitorName: e.target.value });
+    }
+
+    welcome = () => {
+      return (
+        <div id="welcome">
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter.typeString('Hello. ')
+                .pauseFor(1000)
+                .start();
+              typewriter.typeString("I'm Andrew. ")
+                .pauseFor(1000)
+                .start()
+              typewriter.typeString("What's your name?")
+                .pauseFor(1000)
+                .start()
+            }}
+          />
+          <form onSubmit={this.onSubmit}>
+            <input type="text" />
+            <input type="submit" value="Introduce yourself" />
+          </form>
+        </div>
+      );
     }
 
     renderHeader() {
@@ -87,7 +117,7 @@ class Portfolio extends React.Component {
           view = <Contact />;
           break;
         default:
-          view = <Welcome className="intro" />;
+          view = this.welcome();
           break;
       }
 
