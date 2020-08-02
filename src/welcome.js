@@ -13,7 +13,6 @@ function Intro(props) {
           onInit={(typewriter) => {
             typewriter.typeString('Hello. ')
               .pauseFor(1000)
-              .typewriter.typeString("I'm Andrew.")
               .start();
           }}
         />
