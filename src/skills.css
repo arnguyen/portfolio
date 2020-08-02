@@ -1,0 +1,21 @@
+.col-1 {
+    position: absolute;
+    margin-left: 40%;
+}
+
+.col-2 {
+    position: absolute;
+    margin-left: 55%;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+.col-1 div {
+    margin-bottom: 15px;
+}
+
+.col-2 div {
+    margin-bottom: 15px;
+}
