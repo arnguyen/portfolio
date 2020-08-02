@@ -7,6 +7,7 @@ import About from './about';
 import Experience from './experience';
 import Resume from './resume';
 import Contact from './contact';
+import { sun } from '../public/sun.png';
 
 const HEADER_OPTIONS = ['Welcome', 'About', 'Experience', 'Resume', 'Contact']
 
@@ -59,7 +60,7 @@ class Portfolio extends React.Component {
         <Switch
           onChange={this.changeTheme}
           checked={theme === 'light'}
-          checkedIcon="sun.png"
+          checkedIcon={sun}
           onColor="#87ceeb"
           uncheckedIcon="moon.png"
           offColor="#000080"
