@@ -10,7 +10,7 @@ function Intro(props) {
       <div id="welcome">
         <Typewriter
           options={{
-            strings: ['Hello.', "I'm", 'Andrew.'],
+            strings: "Hello. I'm Andrew.",
             autoStart: true,
             loop: false
           }}
