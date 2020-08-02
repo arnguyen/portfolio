@@ -5,6 +5,7 @@ import './portfolio.css';
 import Welcome from './welcome';
 import About from './about';
 import Experience from './experience';
+import Skills from './skills';
 import Resume from './resume';
 import Contact from './contact';
 
@@ -82,6 +83,9 @@ class Portfolio extends React.Component {
         break;
       case 'Experience':
         view = <Experience />;
+        break;
+      case 'Skills':
+        view = <Skills />;
         break;
       case 'Resume':
         view = <Resume />;
