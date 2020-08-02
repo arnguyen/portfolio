@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactStars from "react-rating-stars-component";
 
 class Skills extends React.Component {
     constructor(props) {
@@ -10,9 +11,11 @@ class Skills extends React.Component {
     render() {
         return (
           <div id="skills">
-            <p>
-              I have no skills.
-            </p>
+            <ReactStars
+              count={5}
+              size={24}
+              activeColor="#ffd700"
+            />
           </div> 
         )
     }
