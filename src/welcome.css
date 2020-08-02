@@ -8,23 +8,5 @@ h1 {
 
 .Typewriter {
     font-size: 40px;
-}
-
-form {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-form input {
-    background: transparent;
-    border: none;
-    border-bottom: solid;
-    outline: none;
-    font-size: 40px;
-    text-align: center;
-}
-
-.submit:hover {
-    cursor: pointer;
-    font-weight: bold;
+    margin-top: 5%;
 }

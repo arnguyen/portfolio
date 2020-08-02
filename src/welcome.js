@@ -13,7 +13,7 @@ function Intro() {
             typewriter.typeString("I'm Andrew. ")
               .pauseFor(1000)
               .start()
-            typewriter.typeString("Feel free to explore my site.")
+            typewriter.typeString("It's nice to meet you.")
               .pauseFor(1000)
               .start()
           }}
