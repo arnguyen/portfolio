@@ -17,7 +17,8 @@ class Portfolio extends React.Component {
       this.state = {
           theme: 'light',
           activeView: 'Welcome',
-          visitorName: ''
+          visitorName: '',
+          formSubmitted: false
       };
   }
 
@@ -37,33 +38,37 @@ class Portfolio extends React.Component {
 
     onSubmit = (e) => {
       e.preventDefault();
+      this.setState({ formSubmitted: true });
+    }
+
+    handleChange = (e) => {
       this.setState({ visitorName: e.target.value });
     }
 
     welcome = () => {
-      const { visitorName } = this.state;
+      const { visitorName, formSubmitted } = this.state;
 
       return (
         <div id="welcome">
           <Typewriter
             onInit={(typewriter) => {
               typewriter.typeString('Hello. ')
-                .pauseFor(1000)
+                .pauseFor(500)
                 .start();
               typewriter.typeString("I'm Andrew. ")
-                .pauseFor(1000)
+                .pauseFor(500)
                 .start()
               typewriter.typeString("What's your name?")
-                .pauseFor(1000)
+                .pauseFor(500)
                 .start()
             }}
           />
           <form onSubmit={this.onSubmit}>
-            <input type="text" />
+            <input type="text" value={visitorName} onChange={this.handleChange} />
             <input type="submit" value="Introduce yourself" />
           </form>
           {
-            visitorName
+            formSubmitted
             && (
             <Typewriter
               onInit={(typewriter) => {
