@@ -34,16 +34,27 @@ class Portfolio extends React.Component {
 
     changeView = (e) => {
       this.setState({ activeView: e.target.value });
-    }
+    };
 
     onSubmit = (e) => {
       e.preventDefault();
       this.setState({ formSubmitted: true });
-    }
+    };
 
     handleChange = (e) => {
       this.setState({ visitorName: e.target.value });
-    }
+    };
+
+    form = () => {
+      const { visitorName } = this.state;
+
+      return (
+        <form onSubmit={this.onSubmit}>
+          <input type="text" value={visitorName} onChange={this.handleChange} />
+          <input className="submit" type="submit" value="Introduce yourself" />
+        </form>
+      );
+    };
 
     welcome = () => {
       const { visitorName, formSubmitted } = this.state;
@@ -63,10 +74,7 @@ class Portfolio extends React.Component {
                 .start()
             }}
           />
-          <form onSubmit={this.onSubmit}>
-            <input type="text" value={visitorName} onChange={this.handleChange} />
-            <input type="submit" value="Introduce yourself" />
-          </form>
+          {this.form()}
           {
             formSubmitted
             && (
@@ -81,7 +89,7 @@ class Portfolio extends React.Component {
           }
         </div>
       );
-    }
+    };
 
     renderHeader() {
       const { theme, activeView } = this.state;

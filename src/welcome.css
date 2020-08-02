@@ -12,6 +12,7 @@ h1 {
 
 form {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 form input {
@@ -21,4 +22,9 @@ form input {
     outline: none;
     font-size: 40px;
     text-align: center;
+}
+
+.submit:hover {
+    cursor: pointer;
+    font-weight: bold;
 }
