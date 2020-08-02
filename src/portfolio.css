@@ -63,7 +63,7 @@
 }
 
 .header > div {
-    position: absolute;
+    position: absolute !important;
     top: 30px;
     right: 50px;
 }

@@ -37,8 +37,6 @@ class Portfolio extends React.Component {
   renderHeader() {
     const { theme, activeView } = this.state;
 
-    const changeThemeTo = theme === 'light' ? 'Light Theme' : 'Dark Theme';
-
     return (
       <div className="header">
         <ul>
@@ -58,8 +56,14 @@ class Portfolio extends React.Component {
             ))
           }
         </ul>
-        
-        <Switch onChange={this.changeTheme} checked={theme === 'light'} />
+        <Switch
+          onChange={this.changeTheme}
+          checked={theme === 'light'}
+          checkedIcon="sun.png"
+          onColor="#87ceeb"
+          uncheckedIcon="moon.png"
+          offColor="#000080"
+        />
       </div>
     );
   }
