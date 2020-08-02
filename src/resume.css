@@ -9,3 +9,7 @@ iframe {
     width: 35%;
     height: 80vh;
 }
+
+.resume a:hover {
+    font-weight: bold;
+}
