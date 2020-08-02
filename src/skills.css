@@ -1,14 +1,14 @@
-.col-1 {
+#skills .col-1 {
     position: absolute;
     margin-left: 40%;
 }
 
-.col-2 {
+#skills .col-2 {
     position: absolute;
     margin-left: 55%;
 }
 
-#skills h2 {
+#skills > div > h2 {
     text-align: center;
 }
 
