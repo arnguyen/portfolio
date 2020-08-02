@@ -8,7 +8,7 @@ import Experience from './experience';
 import Resume from './resume';
 import Contact from './contact';
 
-const HEADER_OPTIONS = ['Welcome', 'About', 'Experience', 'Resume', 'Contact']
+const HEADER_OPTIONS = ['Welcome', 'About', 'Experience', 'Skills', 'Resume', 'Contact']
 
 class Portfolio extends React.Component {
     constructor(props) {
