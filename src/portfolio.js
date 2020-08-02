@@ -120,10 +120,7 @@ class Portfolio extends React.Component {
   renderView() {
     const { activeView, visitorName } = this.state;
 
-    this.setState({
-      visitorName: '',
-      formSubmitted: false
-    })
+
 
     let view;
 
