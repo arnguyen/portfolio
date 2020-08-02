@@ -25,16 +25,6 @@
     color: white;
 }
 
-.light > #theme-button {
-    background-color: white;
-    color: black;
-}
-
-.dark > #theme-button {
-    background-color: grey;
-    color: white;
-}
-
 .portfolio li {
     list-style-type: none;
     display: inline-block;
@@ -58,6 +48,14 @@
     color: white;
 }
 
+.light body {
+    color: black;
+}
+
+.dark body {
+    color: white;
+}
+
 .active-view {
     text-decoration: underline;
 }
@@ -68,8 +66,19 @@
 
 #theme-button {
     position: absolute;
+    outline: none;
     right: 30px;
     top: 30px;
+}
+
+.light #theme-button {
+    background-color: white;
+    color: black;
+}
+
+.dark #theme-button {
+    background-color: grey;
+    color: white;
 }
 
 @keyframes gradient {

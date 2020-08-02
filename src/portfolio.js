@@ -36,7 +36,7 @@ class Portfolio extends React.Component {
     renderHeader() {
       const { theme, activeView } = this.state;
 
-      const changeThemeTo = theme === 'light' ? 'Dark Mode' : 'Light Mode';
+      const changeThemeTo = theme === 'light' ? 'Light Theme' : 'Dark Theme';
 
       return (
         <div className="header">
