@@ -46,6 +46,10 @@
     font-size: 18px;
 }
 
+.header-option:hover {
+    font-weight: bold;
+}
+
 .light .header-option {
     color: black;
 }
