@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactStars from "react-rating-stars-component";
+import './skills.css';
 
 class Skills extends React.Component {
     constructor(props) {
