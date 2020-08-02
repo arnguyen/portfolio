@@ -7,7 +7,6 @@ import About from './about';
 import Experience from './experience';
 import Resume from './resume';
 import Contact from './contact';
-import {sunIcon, moonIcon} from './icons';
 
 const HEADER_OPTIONS = ['Welcome', 'About', 'Experience', 'Resume', 'Contact']
 
@@ -38,7 +37,7 @@ class Portfolio extends React.Component {
   renderHeader() {
     const { theme, activeView } = this.state;
 
-    const sun = 'sun.svg'
+    const activeTheme = theme === "light" ? "Light Mode" : "Dark Mode";
 
     return (
       <div className="header">
@@ -59,12 +58,13 @@ class Portfolio extends React.Component {
             ))
           }
         </ul>
+        <p>{activeTheme}</p>
         <Switch
           onChange={this.changeTheme}
           checked={theme === 'light'}
-          checkedIcon={sunIcon}
+          checkedIcon={false}
           onColor="#87ceeb"
-          uncheckedIcon={moonIcon}
+          uncheckedIcon={false}
           offColor="#000080"
         />
       </div>

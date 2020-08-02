@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Contact extends React.Component {
     constructor(props) {
@@ -11,10 +10,10 @@ class Contact extends React.Component {
     render() {
         return (
           <div id="contact">
-            <p>ngandrew@umich.edu</p>
-            <p>(248) 904-3173</p>
-            <FontAwesomeIcon icon="coffee" />
-
+            <a href="mailto:ngandrew@umich.edu">ngandrew@umich.edu</a>
+            <a href="tel:248-904-3173">248-904-3173</a>
+            <a href="https://www.linkedin.com/in/andrew-nguyen-084279179/">Linkedin</a>
+            <a href="https://github.com/arnguyen">Github</a>
           </div>
         )
     }
