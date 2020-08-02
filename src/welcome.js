@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Typewriter from 'typewriter-effect';
 import './welcome.css';
 
 function Intro(props) {
@@ -7,8 +8,13 @@ function Intro(props) {
 
     return (
       <div id="welcome">
-        <h1 className={className}>Hello. I&apos;m Andrew.</h1>
-        
+        <Typewriter
+          options={{
+            strings: ['Hello.', "I'm", 'Andrew.'],
+            autoStart: true,
+            loop: false
+          }}
+        />
       </div>
     )
 }
