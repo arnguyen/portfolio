@@ -23,6 +23,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 C++
                 <ReactStars
                   count={5}
@@ -31,6 +32,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 Python
                 <ReactStars
                   count={5}
@@ -39,6 +41,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 JavaScript
                 <ReactStars
                   count={5}
@@ -47,6 +50,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 HTML
                 <ReactStars
                   count={5}
@@ -65,6 +69,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 Sass
                 <ReactStars
                   count={5}
@@ -73,6 +78,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 React Js
                 <ReactStars
                   count={5}
@@ -81,6 +87,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 Flux
                 <ReactStars
                   count={5}
@@ -89,6 +96,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 Redux
                 <ReactStars
                   count={5}
@@ -110,6 +118,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 Visual Studio
                 <ReactStars
                   count={5}
@@ -118,6 +127,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 VS Code
                 <ReactStars
                   count={5}
@@ -136,6 +146,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 Atlassian/Jira
                 <ReactStars
                   count={5}
@@ -157,6 +168,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
+                <br />
                 Cantonese
                 <ReactStars
                   count={5}

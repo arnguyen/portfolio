@@ -1,11 +1,13 @@
 .col-1 {
-    position: absolute;
-    margin-left: 40%;
+    display: flex;
+    float: left;
+    width: 50%;
 }
 
 .col-2 {
-    position: absolute;
-    margin-left: 55%;
+    display: flex;
+    float: right;
+    width: 50%;
 }
 
 #skills h2 {
