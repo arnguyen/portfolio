@@ -1,21 +1,8 @@
-.col-1 {
-    float: left;
-    width: 30%;
-}
-
-.col-2 {
-    float: right;
-    width: 35%;
-}
-
 #skills h2 {
     text-align: center;
 }
 
-.col-1 div {
-    margin-bottom: 15px;
-}
-
-.col-2 div {
-    margin-bottom: 15px;
+#skills p {
+    position: absolute;
+    margin-left: 50%
 }

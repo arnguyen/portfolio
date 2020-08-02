@@ -14,17 +14,8 @@ class Skills extends React.Component {
           <div id="skills">
             <div className="software-skills">
               <h2>Software Skills</h2>
-              <p className="col-1">
-                C
-                <ReactStars
-                  count={5}
-                  value={3}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
-                <br />
-                C++
+              <p>
+                C++, HTML, CSS, Sass
                 <ReactStars
                   count={5}
                   value={4}
@@ -32,8 +23,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
-                <br />
-                Python
+                C, Python, JavaScript, React Js
                 <ReactStars
                   count={5}
                   value={3}
@@ -41,53 +31,6 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
-                <br />
-                JavaScript
-                <ReactStars
-                  count={5}
-                  value={3}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
-                <br />
-                HTML
-                <ReactStars
-                  count={5}
-                  value={4}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
-              </p>
-              <p className="col-2">
-                CSS
-                <ReactStars
-                  count={5}
-                  value={4}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
-                <br />
-                Sass
-                <ReactStars
-                  count={5}
-                  value={4}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
-                <br />
-                React Js
-                <ReactStars
-                  count={5}
-                  value={3}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
-                <br />
                 Flux
                 <ReactStars
                   count={5}
@@ -96,7 +39,6 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
-                <br />
                 Redux
                 <ReactStars
                   count={5}
@@ -109,8 +51,8 @@ class Skills extends React.Component {
             </div>
             <div className="software-tools">
               <h2>Software Tools</h2>
-              <p className="col-1">
-                Git
+              <p>
+                Git, VS Code, Chrome Developer Tools, Atlassian/Jira
                 <ReactStars
                   count={5}
                   value={3}
@@ -118,7 +60,6 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
-                <br />
                 Visual Studio
                 <ReactStars
                   count={5}
@@ -127,39 +68,11 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
-                <br />
-                VS Code
-                <ReactStars
-                  count={5}
-                  value={3}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
-              </p>
-              <p className="col-2">
-                Chrome Developer Tools
-                <ReactStars
-                  count={5}
-                  value={3}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
-                <br />
-                Atlassian/Jira
-                <ReactStars
-                  count={5}
-                  value={3}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
               </p>
             </div>
             <div className="languages">
               <h2>Languages</h2>
-              <p className="col-1">
+              <p>
                 English
                 <ReactStars
                   count={5}
@@ -168,18 +81,7 @@ class Skills extends React.Component {
                   activeColor="#ffd700"
                   edit={false}
                 />
-                <br />
-                Cantonese
-                <ReactStars
-                  count={5}
-                  value={2}
-                  size={24}
-                  activeColor="#ffd700"
-                  edit={false}
-                />
-              </p>
-              <p className="col-2">
-                French
+                French, Cantonese
                 <ReactStars
                   count={5}
                   value={2}
