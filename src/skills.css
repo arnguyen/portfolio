@@ -3,6 +3,9 @@
 }
 
 #skills p {
-    position: absolute;
-    margin-left: 50%
+    margin-left: 46%
+}
+
+#skills > div > p > div {
+    margin-bottom: 15px;
 }
