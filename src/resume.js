@@ -10,11 +10,11 @@ class Resume extends React.Component {
 
     render() {
         return (
-          <div>
+          <div id="resume">
             <iframe src="Nguyen-Andrew-Resume.pdf" title="resume" />
             <p>
               Also feel free to download my resume&nbsp;
-              <a href="Nguyen-Andrew-Resume.pdf">
+              <a href="Nguyen-Andrew-Resume.pdf" download>
                 here
               </a>
               .    

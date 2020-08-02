@@ -10,11 +10,11 @@ class Contact extends React.Component {
 
     render() {
         return (
-          <div>
+          <div id="contact">
             <p>ngandrew@umich.edu</p>
             <p>(248) 904-3173</p>
             <FontAwesomeIcon icon="linkedin" />
-            
+
           </div>
         )
     }
