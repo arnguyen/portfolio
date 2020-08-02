@@ -8,7 +8,7 @@ function Intro(props) {
     return (
       <div id="welcome">
         <h1 className={className}>Hello. I&apos;m Andrew.</h1>
-        <img id="my-pic" src="mainpic.jpg" alt='My pic' />
+        
       </div>
     )
 }
