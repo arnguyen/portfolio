@@ -14,7 +14,7 @@ function Intro(props) {
             typewriter.typeString('Hello. ')
               .pauseFor(1000)
               .start();
-            typewriter.typeString("I'm Andrew.")
+            typewriter.typeString("I'm Andrew. ")
               .pauseFor(1000)
               .start()
             typewriter.typeString("What's your name?")
