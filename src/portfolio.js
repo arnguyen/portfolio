@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import Switch from 'react-switch';
 import './portfolio.css';
 import Welcome from './welcome';
 import About from './about';
@@ -57,13 +58,8 @@ class Portfolio extends React.Component {
             ))
           }
         </ul>
-        <button
-          id="theme-button"
-          type="button"
-          onClick={this.changeTheme}
-        >
-          { changeThemeTo }
-        </button>
+        
+        <Switch onChange={this.changeTheme} checked={theme === 'light'} />
       </div>
     );
   }
