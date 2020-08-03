@@ -39,6 +39,7 @@ class Experience extends React.Component {
               </p>
             </div>
             <div id="ari">
+              <img src="ari.png" alt="ari logo" />
               <h2>Project Lead, ARI - Winter 2019</h2>
               <p>
                 In winter 2019, I joined what I consider to be one of the most interesting student 
