@@ -59,7 +59,6 @@ class Portfolio extends React.Component {
             ))
           }
         </ul>
-        <p>{activeTheme}</p>
         <Switch
           onChange={this.changeTheme}
           checked={theme === 'light'}
