@@ -13,3 +13,9 @@
 .languages > h2 {
     margin-top: 50px;
 }
+
+@media only screen and (max-width: 750px) {
+    #skills > div {
+        margin-left: 25%;
+    }
+}

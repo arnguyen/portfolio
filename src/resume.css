@@ -13,3 +13,9 @@ iframe {
 #resume a:hover {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 750px) {
+    iframe {
+        width: 75%;
+    }
+}
