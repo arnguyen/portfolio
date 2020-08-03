@@ -75,15 +75,15 @@
 }
 
 .header > div {
-    position: absolute !important;
-    top: 45px;
-    right: 50px;
+    display: block !important;
+    left: 91%;
+    bottom: 45%;
 }
 
 .header > p {
-    position: absolute;
-    right: 30px;
-    top: 0px;
+    position: relative;
+    left: 90%;
+    bottom: 40%
 }
 
 @keyframes gradient {
