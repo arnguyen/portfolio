@@ -33,6 +33,10 @@
     #experience > div > p {
         text-align: left;
     }
+
+    #si-206 img {
+        width: 200px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
