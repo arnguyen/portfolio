@@ -86,6 +86,18 @@
     bottom: 40%
 }
 
+@media only screen and (min-width: 550px) and (max-width: 620px) {
+    .portfolio li {
+        margin-right: 4%;
+    }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 700px) {
+    .portfolio li {
+        margin-right: 0%;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     .header > p {
         display: none;
