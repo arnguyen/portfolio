@@ -14,6 +14,13 @@
     margin-top: 50px;
 }
 
+
+@media only screen and (max-width: 1000px) {
+    #skills > div {
+        margin-left: 35%;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     #skills > div {
         margin-left: 25%;

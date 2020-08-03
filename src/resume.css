@@ -14,6 +14,12 @@ iframe {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 1000px) {
+    iframe {
+        width: 50%;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     iframe {
         width: 75%;
