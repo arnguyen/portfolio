@@ -1,0 +1,22 @@
+#si-206 img {
+    width: 300px;
+    height: auto;
+}
+
+#experience div {
+    display: inline-block;
+    width: 40%;
+
+}
+
+#amazon {
+    margin-left: 5%;
+}
+
+#si-206 {
+    margin-left: 10%;
+}
+
+#ari {
+    margin-left: 5%;
+}
