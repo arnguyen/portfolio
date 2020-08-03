@@ -34,3 +34,9 @@
         text-align: left;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    #experience div {
+        margin-left: 15%;
+    }
+}
